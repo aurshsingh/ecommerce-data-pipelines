@@ -3,9 +3,10 @@
 End-to-end ETL pipeline processing 100,000+ real e-commerce orders.
 
 ## What This Does
-- Loads 6 raw CSV datasets using Python/Pandas
+- Loads 4 raw CSV datasets using Python/Pandas
 - Cleans data: date conversion, null removal, deduplication
 - Joins 4 tables (orders + customers + payments + items)
+- Created new orders_cleaned file using python script.
 - Loads 100K+ rows into MySQL database
 - Runs 12 business analytics SQL queries
 
@@ -24,4 +25,4 @@ End-to-end ETL pipeline processing 100,000+ real e-commerce orders.
 
 ## Dataset
 Brazilian E-Commerce Dataset by Olist (Kaggle)
-100K+ orders | 6 tables | Real Brazilian e-commerce data from 2016-2018
+100K+ orders | 4 tables | Real Brazilian e-commerce data from 2016-2018
