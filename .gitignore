@@ -1,0 +1,11 @@
+# Data files - large, not meant to be tracked
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+Thumbs.db
